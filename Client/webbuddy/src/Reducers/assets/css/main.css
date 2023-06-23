@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap");
+
+:root {
+  --pricolor-1: #000;
+  --pricolor-2: #111;
+  --seccolor-1: #005792;
+  --seccolor-2: #111;
+}
+
+body {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-family: "Nunito", sans-serif;
+  background-color: var(--pricolor-1);
+  color: var(--seccolor-2) !important;
+  /* text-align: center; */
+}
+
+
+
+button {
+  color: gray !important;
+}
+
+
+.main-navbar {
+  background-color: var(--pricolor-2);
+}
+
+.navbar-brand {
+  color: var(--pricolor-1);
+}
+
+.card-login {
+  margin-top: 10vh;
+  color: white !important;
+}
+
+.card-login >div {
+  
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.card-login .card-body {
+  padding: 50px;
+}
+
+
+
+*{
+  color:white !important;
+}
+
+input[type="text"], textarea {
+
+  background-color : #333; 
+
+}
+
+label {
+  z-index: 10 !important;
+  padding-left: 20px !important;
+}
+.MuiInputBase-root{
+
+  padding: 8px;
+  border-radius: 20px;
+  z-index: 0 !important;
+}
+
+.MuiPaper-root{
+  background-color: transparent !important;
+
+}
+.card-login .MuiFormControl-root {
+  color: white !important;
+  margin-bottom: 30px;
+}
+
+.card-login .card-header {
+  color: white !important;
+  background-color: var(--seccolor-2);
+}
+
+input:invalid, input:valid {
+  background-color: transparent !important;
+  background: transparent !important; 
+}
+.card-login .card-body {
+  background-color: var(--pricolor-2);
+}
+
+.card-login .card-footer button {
+  color: white !important;
+  background-color: var(--seccolor-2);
+  color: var(--pricolor-2);
+}
+.card{
+  color:#fff !important;
+  background-color: #000 !important;
+}
+.card a {
+  color:#fff !important;
+
+}
+.card-post {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.card-post .card-body {
+  padding: 0px;
+}
+
+.card-post .card-body img {
+  width: 100%;
+  height: auto;
+}
+
+.card-post .MuiList-root {
+  width: 100%;
+}
+.profile-img {
+
+  position: relative !important;
+  overflow: hidden !important;
+  height: 200px !important; 
+  width:  200px !important;
+}
+.profile-img img {
+  border-radius: 50% !important ;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+
+.profile-feed img {
+  margin: 10px;
+  width: 94%;
+  height: auto;
+}
+
+.post-paper {
+  padding: 10px;
+  margin: 10px;
+  font-size: 14px;
+}
+
