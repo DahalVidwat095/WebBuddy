@@ -1,0 +1,40 @@
+{
+  "name": "t1-backend-web-api-dahalvidwat095",
+  "version": "1.0.0",
+  "description": "[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=9568357&assignment_repo_type=AssignmentRepo)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ST6003CEM/t1-backend-web-api-DahalVidwat095.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ST6003CEM/t1-backend-web-api-DahalVidwat095/issues"
+  },
+  "homepage": "https://github.com/ST6003CEM/t1-backend-web-api-DahalVidwat095#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "date-fns": "^2.29.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.17.1",
+    "fs-extra": "^11.1.0",
+    "helmet": "^6.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "libphonenumber-js": "^1.10.21",
+    "mocha": "^10.2.0",
+    "mongoose": "^5.9.7",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^9.0.0",
+    "validator": "^13.9.0"
+  }
+}
